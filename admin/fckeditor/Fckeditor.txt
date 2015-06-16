@@ -1,0 +1,20 @@
+For FCKEDITOR:Add Detail
+
+<?php
+include('fckeditor/fckeditor.php');
+$FCKeditor = new FCKeditor('detail');
+$FCKeditor->BasePath = 'fckeditor/';
+$FCKeditor->Create();
+?><!--editor for change fonts etc-->
+
+
+
+EDIT DEATIL:
+
+<?php
+include('fckeditor/fckeditor.php');
+$FCKeditor = new FCKeditor('detail');
+$FCKeditor->BasePath = 'fckeditor/';
+$FCKeditor->Value = $detail;
+$FCKeditor->Create();
+?><!--editor for change fonts etc-->

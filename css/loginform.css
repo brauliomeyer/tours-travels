@@ -1,0 +1,41 @@
+/*
+	Halcyonic 3.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* CSS for the loginform                                                             */
+/*********************************************************************************/
+
+.login { background:#ccc; }
+h1 { font-size: 24px; }
+.loginbox { background: #444; width: 400px; padding: 10 100px 0px 100px;}
+.loginboxinner {
+	background: #fff; padding: 20px; border: 1px solid #333;
+	-moz-box-shadow: inset 0 1px 0 #444; -webkit-box-shadow: inset 0 1px 0 #444; box-shadow: inset 0 1px 0 #444;
+}
+.loginheader { height: 40px; }
+.loginform { margin-top: 20px;  }
+
+.loginbox h1 { font-size: 30px; letter-spacing: 1px; color: #555; font-weight: normal; padding-top: 10px; }
+
+.loginbox label { display: block; color: #666; letter-spacing: 1px; font-size: 18px; }
+.loginbox input {
+	padding: 12px 10px; background: #282828; color: #ccc;
+	font-family: Arial, Helvetica, sans-serif; margin-top: 8px; font-size: 15px; border: 0; width: 340px;
+	-moz-box-shadow: 0 1px 0 #444; -webkit-box-shadow: 0 1px 0 #444; box-shadow: 0 1px 0 #444; outline: none;
+}
+.loginbox button {
+	background: #999; padding: 10px 20px; font-size: 18px; border: 0; letter-spacing: 1px; color: #333; width: 360px;
+	-moz-box-shadow: 1px 1px 3px #222; -webkit-box-shadow: 1px 1px 3px #222; box-shadow: 1px 1px 3px #222; cursor: pointer;
+}
+.loginbox button.default { background: #999; color: #333; }
+.loginbox button.hover { background: #ccc; color: #000; }
+.loginbox button:active { background: #111; color: #fff; }
+.loginerror { color: #990000; background: #fbe3e3; padding: 0 10px; overflow: hidden; display: none; }
+.loginerror { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.loginerror p { margin: 10px 0; }
+
+.radius { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.title { font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif; }

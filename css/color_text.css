@@ -1,0 +1,10 @@
+/* Style sheet for the red and green tick/cross */
+h6.green {	
+	color: green;
+	font: Arial 25px;
+}
+
+h6.red	{
+	color: red;
+	font: Arial 15px;
+}
